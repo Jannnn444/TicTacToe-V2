@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct gameApp: App {
+    
+    
+    @StateObject var gameboardDM = GameBoardDataModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(gameboardDM)
+            
+            // environment in our gameDataModel logic
         }
     }
 }
