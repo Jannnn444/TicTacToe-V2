@@ -112,6 +112,8 @@ struct ContentView: View {
                 GameResultView()
             } else if gameboardDM.winner == .playerCross {
                 GameResultViewCross()
+            } else if gameboardDM.winner == .PlayerNoOne  {
+                GameResultViewNoOneWon()
             }
         }
         .padding()

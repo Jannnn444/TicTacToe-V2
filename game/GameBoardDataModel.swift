@@ -98,6 +98,11 @@ class GameBoardDataModel: ObservableObject {
             winner = .playerCross
         } else if (board[2] == .cross && board[4] == .cross && board[6] == .cross) {
             winner = .playerCross
+            
+            
+        // MARK: Winner Cross Situation
+        } else if !board.contains(.empty) {
+            winner = .PlayerNoOne
         }
         
     }

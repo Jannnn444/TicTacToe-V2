@@ -8,4 +8,5 @@
 enum PlayerState {
     case playerCircle
     case playerCross
+    case PlayerNoOne
 }
