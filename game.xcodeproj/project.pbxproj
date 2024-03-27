@@ -14,7 +14,7 @@
 		54EB72752B81E5A100E7E214 /* GameBoardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB72742B81E5A100E7E214 /* GameBoardDataModel.swift */; };
 		54EB72772B81E63900E7E214 /* BlockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB72762B81E63900E7E214 /* BlockState.swift */; };
 		54EB72792B81E66900E7E214 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB72782B81E66900E7E214 /* PlayerState.swift */; };
-		54EB727B2B81F3D600E7E214 /* GameResultView().swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB727A2B81F3D600E7E214 /* GameResultView().swift */; };
+		54EB727B2B81F3D600E7E214 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB727A2B81F3D600E7E214 /* GameResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		54EB72742B81E5A100E7E214 /* GameBoardDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardDataModel.swift; sourceTree = "<group>"; };
 		54EB72762B81E63900E7E214 /* BlockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockState.swift; sourceTree = "<group>"; };
 		54EB72782B81E66900E7E214 /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
-		54EB727A2B81F3D600E7E214 /* GameResultView().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameResultView().swift"; sourceTree = "<group>"; };
+		54EB727A2B81F3D600E7E214 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				54EB72782B81E66900E7E214 /* PlayerState.swift */,
 				54EB72682B81E37300E7E214 /* Assets.xcassets */,
 				54EB726A2B81E37300E7E214 /* Preview Content */,
-				54EB727A2B81F3D600E7E214 /* GameResultView().swift */,
+				54EB727A2B81F3D600E7E214 /* GameResultView.swift */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EB727B2B81F3D600E7E214 /* GameResultView().swift in Sources */,
+				54EB727B2B81F3D600E7E214 /* GameResultView.swift in Sources */,
 				54EB72792B81E66900E7E214 /* PlayerState.swift in Sources */,
 				54EB72752B81E5A100E7E214 /* GameBoardDataModel.swift in Sources */,
 				54EB72672B81E37200E7E214 /* ContentView.swift in Sources */,
@@ -291,6 +291,7 @@
 				DEVELOPMENT_TEAM = 362GN5DA84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TicTacToe V2";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +321,7 @@
 				DEVELOPMENT_TEAM = 362GN5DA84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TicTacToe V2";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

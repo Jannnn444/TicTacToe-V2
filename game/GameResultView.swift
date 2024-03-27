@@ -37,6 +37,9 @@ struct GameResultView: View {
             }
                 .frame(width: myModuleDimension, height: myModuleDimension)
                 .background(.white)
+                
+                .opacity(0.9)
+                .ignoresSafeArea()
                 .font(.system(size: 30, weight: .bold))
                 .cornerRadius(40)
         }
@@ -68,7 +71,11 @@ struct GameResultViewCross: View {
                     }
             }
                 .frame(width: myModuleDimension, height: myModuleDimension)
+               
                 .background(.white)
+                
+                .ignoresSafeArea()
+                .opacity(0.9)
                 .font(.system(size: 30, weight: .bold))
                 .cornerRadius(40)
         }
@@ -90,7 +97,9 @@ struct GameResultViewNoOneWon: View {
                     Image(systemName: "rainbow")
                 }
                 Text("Let's Retry ?")
-                    .font(.headline)
+                    
+                    .font(.system(size: 30, weight: .bold))
+                
                     .padding(.top)
                     .onTapGesture {
                         gameboardDM.newGame()

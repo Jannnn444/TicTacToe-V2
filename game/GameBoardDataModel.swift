@@ -67,7 +67,6 @@ class GameBoardDataModel: ObservableObject {
             winner = .playerCircle
         } else if (board[3] == .circle && board[4] == .circle && board[5] == .circle) {
             winner = .playerCircle
-            
         } else if (board[6] == .circle && board[7] == .circle && board[8] == .circle) {
             winner = .playerCircle
         } else if (board[0] == .circle && board[3] == .circle && board[6] == .circle) {
@@ -100,8 +99,8 @@ class GameBoardDataModel: ObservableObject {
             winner = .playerCross
             
             
-        // MARK: Winner Cross Situation
-        } else if !board.contains(.empty) {
+        // MARK: Winner No One Situation
+        } else if !board.contains(.empty) && winner != .playerCross && winner != .playerCircle {
             winner = .PlayerNoOne
         }
         
